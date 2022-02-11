@@ -1,0 +1,22 @@
+{
+  "name": "nodep-nodejs-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheus01999/NodeJS-ApiRest.git"
+  },
+  "author": "Matheus Rocha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheus01999/NodeJS-ApiRest/issues"
+  },
+  "homepage": "https://github.com/matheus01999/NodeJS-ApiRest#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
