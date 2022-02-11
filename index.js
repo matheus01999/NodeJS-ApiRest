@@ -1,9 +1,5 @@
-const express = require('express')
-const req = require('express/lib/request')
-const res = require('express/lib/response')
+const customExpress = require('./config/customExpress')
 
-const app = express()
+const app = customExpress()
 
-app.listen(3000, ()=> console.log("Servidor rodando na porta 3000"))
-
-app.get('/atendimentos', (req, res) => res.send("Voce est em atendimentos e chamados"))
+app.listen(3000, () => console.log('Servidor Rodando na Porta 3000'))
